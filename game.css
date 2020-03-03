@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+}
+
+#game {
+  background: url("img/background.png");
+  width: 512px;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+#game .hero {
+  width: 32px;
+  height: 32px;
+  background: url("img/hero.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#game .monster {
+  width: 30px;
+  height: 32px;
+  background: url("img/monster.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#time {
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+}
